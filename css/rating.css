@@ -1,0 +1,15 @@
+@charset "UTF-8";
+.stars .star {
+  color: goldenrod;
+  font-size: 2rem;
+  padding: 0 1rem;
+}
+.stars .star::before {
+  content: "☆";
+  cursor: pointer;
+}
+.stars .star .rated::before {
+  content: "★";
+}
+
+/*# sourceMappingURL=rating.css.map */
